@@ -48,7 +48,7 @@ print(meanTotal)
 print(medianTotal)
 ```
 
-The mean and median number of steps taken per day are `r print(meanTotal)` and `rprint(medianTotal)`, respectively.
+The mean and median number of steps taken per day are `r meanTotal` and `r medianTotal`, respectively.
 
 ## What is the average daily activity pattern?
 1. Make a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)
@@ -67,7 +67,7 @@ maxInterval <- meanStepsIntervals[max,2]
 print(maxInterval)
 ```
 
-On average, the 5-minute interval of `r print(maxInterval)` contained the the most steps.
+On average, the 5-minute interval of `r maxInterval` contained the the most steps.
 
 ## Imputing missing values
 1. Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with NAs)
@@ -101,7 +101,7 @@ print(meanTotal_noNA)
 print(medianTotal_noNA)
 ```
 
-The mean and median number of steps taken per day are `r print(meanTotal_noNA)` and `rprint(medianTotal_noNA)`, respectively.
+The mean and median number of steps taken per day are `r meanTotal_noNA` and `r medianTotal_noNA`, respectively.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
