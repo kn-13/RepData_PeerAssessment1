@@ -101,7 +101,7 @@ print(meanTotal_noNA)
 print(medianTotal_noNA)
 ```
 
-The mean and median number of steps taken per day are `r meanTotal_noNA` and `r medianTotal_noNA`, respectively.
+The mean and median number of steps taken per day are `r meanTotal_noNA` and `r medianTotal_noNA`, respectively. Imputing the missing data caused the mean and median to converge.
 
 ## Are there differences in activity patterns between weekdays and weekends?
 For this part the weekdays() function may be of some help here. Use the dataset with the filled-in missing values for this part.
